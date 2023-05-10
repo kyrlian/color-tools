@@ -20,10 +20,20 @@ Open the svg file with a text (or XML) editor
 
 ## Python script
 
+Arguments:
+
+- svg file
+- target color - optional
+- target size - optional
+
+Example:
+
 ```
-python recolor.py ibm--datastage.svg 00FFFF
+python recolor.py ibm--datastage.svg 00FFFF 48
 ```
 
 ## Resources
 
-[stackoverflow - how-can-i-change-the-color-of-an-svg-element](#https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element)
+- [stackoverflow - how-can-i-change-the-color-of-an-svg-element](#https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element)
+- [SVG ViewBox](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox)
+- [Python XML](https://docs.python.org/3/library/xml.etree.elementtree.html)
